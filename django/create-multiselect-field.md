@@ -7,7 +7,6 @@
 
 <p>models.py
 </p>
-
     from multiselectfield import MultiSelectField
 
     MY_CHOICES = (('item_key1', 'Item title 1.1'),
@@ -24,7 +23,6 @@
 
 <p>settings.py
 </p>
-
     INSTALLED_APPS = (
         'django.contrib.auth',
         'django.contrib.contenttypes',
