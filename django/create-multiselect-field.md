@@ -5,7 +5,8 @@
 
     $ pip install django-multiselectfield
 
-models.py
+<p>models.py
+</p>
 
     from multiselectfield import MultiSelectField
 
@@ -21,7 +22,8 @@ models.py
 
     my_field = MultiSelectField(choices=MY_CHOICES)
 
-settings.py
+<p>settings.py
+</p>
 
     INSTALLED_APPS = (
         'django.contrib.auth',
