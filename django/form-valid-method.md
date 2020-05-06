@@ -38,7 +38,7 @@
         f.save()
         return super().form_valid(form)
 
-<p><code>f = form.save(commit=False)</code> will create the form with the input added on the website. We then add a user field with `f.author = self.request.user` and `f.save()` to save the form on the database. We finish it with the super method.
+<p><code>f = form.save(commit=False)</code> will create the form with the input added on the website. We then add a user field with <code>f.author = self.request.user</code> and <code>f.save()</code> to save the form on the database. We finish it with the super method.
 </p>
 
 <p>If you need to save an instance of the model with the current user using the CreateView and a ModelForm, this is by far the easiest solution.
