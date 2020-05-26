@@ -1,0 +1,5 @@
+<h1>Count the total lines of code of a project.</h1>
+
+    find /project/path -name "*.py" -type f -exec cat {} + | wc -l
+
+
