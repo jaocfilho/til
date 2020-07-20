@@ -1,4 +1,4 @@
-<h1>Communicating with a local copy of Cloud SQL Proxy</h1>
+<h1>Communicating with Cloud SQL using a local copy of Cloud SQL Proxy</h1>
 
 <p>Before using Cloud SQL, you must enable the Cloud SQL Admin API
 </p>
@@ -8,7 +8,7 @@
 <p>The next step is install the Cloud SQL Proxy, the Cloud SQL Proxy connects to your Cloud SQL instance when running locally.
 </p>
 
-    # Download the proxy(changes for every OS):
+    # Download the proxy(changes for each OS):
     wget https://dl.google.com/cloudsql/cloud_sql_proxy.linux.amd64 -O cloud_sql_proxy
 
     # Make the proxy executable:
